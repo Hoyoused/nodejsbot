@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-  if(message.content === 'ㅎㅇ') {
+  if(message.content === 'ㅎㅇ,알하,ALX HI') {
     message.reply('ㅇㅇ 하이');
   }
 });
